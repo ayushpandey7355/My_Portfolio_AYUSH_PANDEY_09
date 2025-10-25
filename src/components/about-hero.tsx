@@ -4,16 +4,16 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "/images/heroProfile.png";
 
 export default function AboutHero() {
   return (
     <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
+      {/* Hero Image */}
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <Image
-              src={heroProfileImg}
+              src="/images/heroProfile.png" // Use string path to public folder
               width={500}
               height={500}
               className="h-auto w-full px-0 xl:px-16"
@@ -23,14 +23,18 @@ export default function AboutHero() {
           </FadeUp>
         </AnimatePresence>
       </div>
+
+      {/* Hero Text */}
       <div className="sm:1/2 mt-10 w-full lg:w-1/2">
         <AnimatePresence>
+          {/* Greeting */}
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
               Hi, I&apos;m Ayush Pandey
             </h1>
           </FadeUp>
 
+          {/* Description 1 */}
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-justify text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               I&apos;m an MCA graduate with hands-on experience as a{" "}
@@ -52,6 +56,7 @@ export default function AboutHero() {
             </p>
           </FadeUp>
 
+          {/* Description 2 */}
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest{" "}
@@ -63,6 +68,7 @@ export default function AboutHero() {
             </p>
           </FadeUp>
 
+          {/* Location */}
           <FadeRight
             key="hero-location"
             duration={0.6}
@@ -79,7 +85,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Banglore, India
+              Bangalore, India
             </span>
           </FadeRight>
         </AnimatePresence>
