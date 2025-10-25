@@ -1,12 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
 import heroProfileImg from "@/public/images/heroProfile.png";
-// import DuotoneImage from "./duotone-image"; // <-- Remove this import
 
 export default function AboutHero() {
   return (
@@ -14,12 +12,10 @@ export default function AboutHero() {
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
-            {/* REPLACED <DuotoneImage> with the standard <Image> component 
-            */}
             <Image
               src={heroProfileImg}
-              width={500} // Increased width for better resolution (recommended)
-              height={500} // Increased height for better resolution (recommended)
+              width={500}
+              height={500}
               className="h-auto w-full px-0 xl:px-16"
               alt="hero image"
               unoptimized
@@ -34,19 +30,27 @@ export default function AboutHero() {
               Hi, I&apos;m Ayush Pandey
             </h1>
           </FadeUp>
+
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
-          <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg text-justify">
-              I'm an MCA graduate with hands-on experience as a <strong>Software Developer Intern</strong> at Team Geek 
-              Solutions Pvt. Ltd. (March 2025 – September 2025). 
-              <br /><br />
-              I specialize in building and optimizing applications using <strong>React.js</strong>, with a solid foundation 
-              in backend development and databases like <strong>MySQL</strong> and <strong>MongoDB</strong>. I am proficient in modern 
-              development frameworks, API integration, and version control using <strong>Git/GitHub</strong>.
-              <br /><br />
-              Recognized for my quick learning and collaborative approach, I focus on delivering scalable, 
-              user-friendly solutions in real-time production environments, following <strong>SDLC</strong> and <strong>Agile</strong> methodologies.
-          </p>
-      </FadeUp>
+            <p className="mt-8 text-justify text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
+              I&apos;m an MCA graduate with hands-on experience as a{" "}
+              <strong>Software Developer Intern</strong> at Team Geek Solutions
+              Pvt. Ltd. (March 2025 – September 2025).
+              <br />
+              <br />I specialize in building and optimizing applications using{" "}
+              <strong>React.js</strong>, with a solid foundation in backend
+              development and databases like <strong>MySQL</strong> and{" "}
+              <strong>MongoDB</strong>. I am proficient in modern development
+              frameworks, API integration, and version control using{" "}
+              <strong>Git/GitHub</strong>.
+              <br />
+              <br />
+              Recognized for my quick learning and collaborative approach, I
+              focus on delivering scalable, user-friendly solutions in real-time
+              production environments, following <strong>SDLC</strong> and{" "}
+              <strong>Agile</strong> methodologies.
+            </p>
+          </FadeUp>
 
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
@@ -58,6 +62,7 @@ export default function AboutHero() {
               and web development.
             </p>
           </FadeUp>
+
           <FadeRight
             key="hero-location"
             duration={0.6}

@@ -3,11 +3,7 @@ import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Markup & Styling Languages",
-    skills: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "SASS" },
-    ],
+    skills: [{ name: "HTML" }, { name: "CSS" }, { name: "SASS" }],
   },
   {
     sectionName: "Programming Languages",

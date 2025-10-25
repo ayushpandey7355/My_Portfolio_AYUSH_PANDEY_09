@@ -1,5 +1,5 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -18,7 +18,6 @@ export default function Footer() {
         >
           <span>ayushpandey7355@gmail.com</span>
           <br />
-          
         </a>
         <div className="flex justify-center">
           <ContactButton />
@@ -33,16 +32,16 @@ export default function Footer() {
             className="h-6 w-6"
             aria-label="link to Github"
           >
-            <GithubIcon className="text-black transition-colors duration-150 hover:text-black-foreground" />
+            <GithubIcon className="hover:text-black-foreground text-black transition-colors duration-150" />
           </a>
-          
+
           <a
             href={siteMetadata.linkedin}
             target="_blank"
             className="h-6 w-6"
             aria-label="link to Linkedin"
           >
-            <LinkedinIcon className="text-black transition-colors duration-150 hover:text-black-foreground" />
+            <LinkedinIcon className="hover:text-black-foreground text-black transition-colors duration-150" />
           </a>
         </div>
       </div>

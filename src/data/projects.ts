@@ -7,11 +7,18 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Car Rental Platform ",
     href: "/projects",
-    tags: ["React.js", "Ant Design", "Node.js", "Express.js", "MongoDB", "Redux", "Stripe API"],
+    tags: [
+      "React.js",
+      "Ant Design",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redux",
+      "Stripe API",
+    ],
     image: {
       LIGHT: "/images/projects/logos/image.png",
-      DARK:  "/images/projects/logos/image car 2.jpg",
-  
+      DARK: "/images/projects/logos/image car 2.jpg",
     },
   },
   {
@@ -32,7 +39,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Socket.IO",
     ],
     image: {
-      LIGHT:"/images/projects/logos/Real time 2 .png",
+      LIGHT: "/images/projects/logos/Real time 2 .png",
       DARK: "/images/projects/logos/Real time 3 .png",
     },
   },

@@ -42,8 +42,8 @@ export interface ExperienceShowcaseListItemProps {
   };
   date: string;
   location: string;
-  description?: string;       // optional
-  showDescription?: boolean;  // optional flag
+  description?: string; // optional
+  showDescription?: boolean; // optional flag
 }
 
 export default function ExperienceShowcaseListItem(

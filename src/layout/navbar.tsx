@@ -52,7 +52,7 @@ export default function Navbar(props: NavbarProps) {
                     pathName === _link.href
                       ? "font-semibold text-background dark:hover:text-foreground"
                       : "text-foreground",
-                    "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200"
+                    "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
                   )}
                   {...(_link.title === "Resume"
                     ? { download: true, target: "_blank" }
