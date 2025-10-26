@@ -11,7 +11,7 @@ const nextConfig = withBundleAnalyzer({
     dirs: ["src"],
   },
   images: {
-    domains: ["https://flagcdn.com"],
+    domains: ["flagcdn.com", "i.ibb.co"], // ✅ Added both hostnames here
   },
   webpack: (config) => {
     config.module.rules.push({
