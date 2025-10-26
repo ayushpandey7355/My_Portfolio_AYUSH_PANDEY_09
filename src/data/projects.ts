@@ -125,8 +125,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Implementation of the classic Rock-Paper-Scissors game, demonstrating logic building and randomization concepts.",
-    sourceCodeHref:
-      "https://github.com/ayushpandey7355/the-complete-code-for-the-Rock-Paper-Scissors-game-in-C",
+    sourceCodeHref: "",
     liveWebsiteHref: "",
   },
   {
