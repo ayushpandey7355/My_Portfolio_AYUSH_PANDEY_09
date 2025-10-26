@@ -1,6 +1,6 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+// import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -58,13 +58,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Car Rental Platform",
-    // favicon: "",
     imageUrl: [
       "/images/projects/logos/image.png",
       "/images/projects/logos/image car 2.jpg",
     ],
     description:
-      "User-friendly car rental platform with React.js & Ant Design. Features admin dashboard, RESTful APIs, MongoDB storage, Stripe payments, and Redux for state management",
+      "User-friendly car rental platform with React.js & Ant Design. Features admin dashboard, RESTful APIs, MongoDB storage, Stripe payments, and Redux for state management.",
     sourceCodeHref: "",
     liveWebsiteHref: "",
   },
@@ -81,52 +80,78 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "",
   },
   {
-    name: "Many Games",
+    name: "Try-TextUtils — Word & Character Counter",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/logos/count1.png",
+      "/images/projects/logos/count2.png",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "",
+      "A React-based utility tool that counts words, characters, and removes extra spaces. It also allows quick text formatting operations with an intuitive UI.",
+    sourceCodeHref:
+      "https://github.com/ayushpandey7355/Try-TextUtils---word-counter-character-counter-remove-extra-spaces-ayushpandey",
     liveWebsiteHref: "",
   },
   {
-    name: "My portfolio",
+    name: "Calculator",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/logos/cal1.png",
+      "/images/projects/logos/cal32.png",
+      "/images/projects/logos/cal31.png",
     ],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "",
-    liveWebsiteHref: siteMetadata.siteUrl,
-  },
-  {
-    name: "Covid Tracker",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
-    description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: " ",
+      "A simple and responsive calculator built using HTML, CSS, and JavaScript to perform basic arithmetic operations.",
+    sourceCodeHref:
+      "https://github.com/ayushpandey7355/Creating-a-calculator-using-HTML-CSS-and-JavaScript",
     liveWebsiteHref: "",
   },
   {
-    name: "Stock predictor",
+    name: "Tic-Tac-Toe",
     imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
+      "/images/projects/logos/tictac12.png",
+      "images/projects/logos/tictac2.png",
+      "images/projects/logos/tictac3.png",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "",
+      "A classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. It offers a fun and interactive experience for two players.",
+    sourceCodeHref: "https://ayushpandey7355.github.io/Tic-Tac-Toe/",
+    liveWebsiteHref: "",
+  },
+  {
+    name: "Rock-Paper-Scissors ",
+    imageUrl: [
+      "/images/projects/logos/p1.png",
+      "/images/projects/logos/p2.png",
+      "/images/projects/logos/p3.png",
+    ],
+    description:
+      "Implementation of the classic Rock-Paper-Scissors game, demonstrating logic building and randomization concepts.",
+    sourceCodeHref:
+      "https://github.com/ayushpandey7355/the-complete-code-for-the-Rock-Paper-Scissors-game-in-C",
+    liveWebsiteHref: "",
+  },
+  {
+    name: "Chrome Dino Game (Game Over Trigger)",
+    imageUrl: [
+      "/images/projects/logos/t1.png",
+      "/images/projects/logos/t2.png",
+      "/images/projects/logos/t3.png",
+    ],
+    description:
+      "A JavaScript-based snippet to simulate and trigger Game Over events in the Chrome Dino game for testing or automation purposes.",
+    sourceCodeHref:
+      "https://github.com/ayushpandey7355/JavaScript-Code-to-Trigger-Game-Over-in-Chrome-Dino-Game",
+    liveWebsiteHref: "",
+  },
+  {
+    name: "Chess",
+    imageUrl: [
+      "/images/projects/logos/c1.png",
+      "/images/projects/logos/c2.png",
+      "/images/projects/logos/c3.png",
+    ],
+    description:
+      "An interactive multiplayer chess game built using HTML, CSS, and JavaScript, featuring real-time gameplay, responsive design, and smooth user interactions.",
+    sourceCodeHref: "https://github.com/ayushpandey7355/CHESS_MY_GAME",
+    liveWebsiteHref: "",
   },
 ];
