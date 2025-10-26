@@ -91,8 +91,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+    sourceCodeHref: "",
+    liveWebsiteHref: "",
   },
   {
     name: "My portfolio",
@@ -114,8 +114,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+    sourceCodeHref: " ",
+    liveWebsiteHref: "",
   },
   {
     name: "Stock predictor",
@@ -127,6 +127,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+    sourceCodeHref: "",
   },
 ];
