@@ -4,44 +4,52 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
   return (
-    <footer className="flex w-full flex-col items-center gap-20 bg-transparent px-6 py-4 sm:px-14 md:px-20">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-accent p-6 text-background sm:p-8 md:gap-12 lg:p-10">
+    <footer className="flex w-full flex-col items-center gap-16 bg-transparent px-6 py-10 sm:px-14 md:px-20">
+      {/* Contact Section */}
+      <div className="mx-auto flex w-full max-w-5xl flex-col items-center gap-6 rounded-2xl bg-accent p-10 text-background shadow-lg sm:gap-8">
         <div className="text-center">
-          <span className="inline-block rounded-full bg-background px-3 py-1 text-xs font-semibold uppercase text-black md:text-sm lg:text-base">
-            Get in touch
+          <span className="inline-block rounded-full bg-background px-4 py-1 text-sm font-semibold uppercase text-black md:text-base">
+            Get in Touch
           </span>
         </div>
+
+        {/* Email */}
         <a
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
-          className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
+          className="text-center text-xl font-semibold underline transition-colors hover:text-background/80 sm:text-2xl md:text-3xl lg:text-4xl"
         >
-          <span>ayushpandey7355@gmail.com</span>
-          <br />
+          {siteMetadata.email}
         </a>
+
+        {/* Button */}
         <div className="flex justify-center">
           <ContactButton />
         </div>
       </div>
-      <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">@AyushPandey</span>
-        <div className="flex gap-8">
+
+      {/* Bottom Footer Section */}
+      <div className="flex w-full max-w-5xl flex-col items-center justify-between gap-6 text-center text-sm text-foreground sm:flex-row sm:gap-0">
+        <span className="text-foreground/90">
+          © {new Date().getFullYear()} Ayush Pandey
+        </span>
+        <div className="flex gap-6">
           <a
             href={siteMetadata.github}
             target="_blank"
-            className="h-6 w-6"
-            aria-label="link to Github"
+            aria-label="GitHub"
+            className="h-6 w-6 transition-transform hover:scale-110"
           >
-            <GithubIcon className="hover:text-black-foreground text-black transition-colors duration-150" />
+            <GithubIcon className="text-black transition-colors hover:text-gray-700" />
           </a>
 
           <a
             href={siteMetadata.linkedin}
             target="_blank"
-            className="h-6 w-6"
-            aria-label="link to Linkedin"
+            aria-label="LinkedIn"
+            className="h-6 w-6 transition-transform hover:scale-110"
           >
-            <LinkedinIcon className="hover:text-black-foreground text-black transition-colors duration-150" />
+            <LinkedinIcon className="text-black transition-colors hover:text-gray-700" />
           </a>
         </div>
       </div>
