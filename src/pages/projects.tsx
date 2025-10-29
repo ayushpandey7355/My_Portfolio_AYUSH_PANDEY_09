@@ -53,8 +53,10 @@ export default function Projects() {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+              I am currently working on new projects while learning backend
+              development, artificial intelligence (AI), and cloud technologies
+              to enhance my technical proficiency and broaden my expertise
+              beyond frontend development.
             </span>
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}
