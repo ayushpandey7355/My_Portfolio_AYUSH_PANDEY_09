@@ -51,6 +51,7 @@ export default function LandingHero() {
                 high-performance, user-focused web applications. Skilled in{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
                 <span className="font-semibold text-accent">NextJS</span>,{" "}
+                <span className="font-semibold text-accent">React Native</span>,{" "}
                 <span className="font-semibold text-accent">SolidJS</span>, and
                 an expert in{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}

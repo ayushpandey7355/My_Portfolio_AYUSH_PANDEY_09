@@ -19,6 +19,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Libraries & Frameworks",
     skills: [
       { name: "Reactjs" },
+      { name: "React Native" },
+      { name: "Express.js" },
       { name: "Nextjs" },
       { name: "Solidjs" },
       { name: "React Router Dom" },
