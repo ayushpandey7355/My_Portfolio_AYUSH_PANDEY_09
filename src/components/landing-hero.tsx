@@ -41,14 +41,16 @@ export default function LandingHero() {
                 Ayush Pandey
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Software Developer
+                Software Developer & QA Engineer
               </span>
             </FadeUp>
 
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <p className="mt-4 max-w-xl text-base font-medium text-zinc-900 dark:text-zinc-200 sm:text-lg md:text-xl">
-                I am a software developer specializing in building
-                high-performance, user-focused web applications. Skilled in{" "}
+                I am a software developer and manual QA engineer specializing in
+                building high-performance, user-focused web applications and
+                ensuring product quality through effective testing practices.
+                Skilled in{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
                 <span className="font-semibold text-accent">NextJS</span>,{" "}
                 <span className="font-semibold text-accent">React Native</span>,{" "}
@@ -56,7 +58,29 @@ export default function LandingHero() {
                 an expert in{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">HTML</span>, and{" "}
-                <span className="font-semibold text-accent">CSS</span>.
+                <span className="font-semibold text-accent">CSS</span>. I also
+                have strong experience in{" "}
+                <span className="font-semibold text-accent">
+                  Software Testing
+                </span>
+                , including{" "}
+                <span className="font-semibold text-accent">
+                  Functional Testing
+                </span>
+                ,{" "}
+                <span className="font-semibold text-accent">
+                  Regression Testing
+                </span>
+                ,{" "}
+                <span className="font-semibold text-accent">
+                  Smoke & Sanity Testing
+                </span>
+                ,{" "}
+                <span className="font-semibold text-accent">
+                  API Testing (Postman)
+                </span>
+                , and{" "}
+                <span className="font-semibold text-accent">Bug Tracking</span>.
               </p>
             </FadeUp>
           </AnimatePresence>

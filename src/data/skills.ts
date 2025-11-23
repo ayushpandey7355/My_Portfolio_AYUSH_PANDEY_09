@@ -102,6 +102,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "SDLC" },
       { name: "STLC" },
       { name: "Waterfall" },
+      { name: "Agile" },
       { name: "GitHub Actions" },
       { name: "GitLab" },
     ],
