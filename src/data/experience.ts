@@ -2,13 +2,25 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
+    title: "Junior QA Engineer",
+    organisation: {
+      name: "TestUnity",
+      href: "",
+    },
+    date: "November 2025 – December 2025",
+    location: "",
+    description:
+      "Performed application testing and tool testing, defect identification, and validation to ensure product quality and reliability.",
+    showDescription: true,
+  },
+  {
     title: "Software Developer",
     organisation: {
       name: "Team Geek Solutions",
       href: "https://www.teamgeeksolutions.com/",
     },
     date: "March 2025 – September 2025",
-    location: "Remote",
+    location: "",
     description: "Reactjs and Nextjs app development",
     showDescription: true, // show description
   },
@@ -19,7 +31,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       href: "",
     },
     date: "September 2024 – February 2025",
-    location: "Remote",
+    location: "",
     description:
       "Maintained and enhanced the company website by integrating new features and improving responsiveness.",
     showDescription: true,
@@ -28,7 +40,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "Graphic Designer",
     organisation: { name: "Blitz Jobs", href: "https://blitzjobs.in/" },
     date: "Jul 2021 - Sep 2021",
-    location: "Remote",
+    location: "",
     description:
       "Gained hands-on experience creating graphic designs and marketing materials using Figma, Canva, and Photoshop, developing brand visuals, banners, social media posts, and presentation templates, applying design principles, collaborating with teams, and improving wireframing and prototyping skills.",
     showDescription: true,

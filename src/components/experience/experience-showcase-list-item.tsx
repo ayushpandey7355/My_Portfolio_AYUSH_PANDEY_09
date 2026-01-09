@@ -71,7 +71,7 @@ export default function ExperienceShowcaseListItem(
           </Link>
         </h3>
         <span className="text-sm font-medium text-foreground xs:text-base">
-          {props.date} | {props.location}
+          {props.date} {props.location}
         </span>
 
         {/* Render description only if showDescription is true */}
