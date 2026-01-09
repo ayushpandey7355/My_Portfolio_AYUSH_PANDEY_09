@@ -76,8 +76,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Real-time chat app using MERN & Socket.IO with responsive UI via Tailwind & Daisy UI. Features secure auth, message persistence in MongoDB, REST APIs, and efficient state management.",
-    sourceCodeHref: "",
-    liveWebsiteHref: "",
+    sourceCodeHref: "https://github.com/ayushpandey7355/CHAT_-APP",
+    liveWebsiteHref: "https://chat-app-1-2a1x.onrender.com/",
   },
   {
     name: "Try-TextUtils — Word & Character Counter",
